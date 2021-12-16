@@ -1,0 +1,39 @@
+{
+  "node": "v14.15.1",
+  "system": {
+    "manufacturer": "Apple Inc.",
+    "model": "MacBookPro11,3"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i7-4960HQ",
+    "speed": 2.6
+  },
+  "memory": "16 GB",
+  "osInfo": {
+    "platform": "darwin",
+    "distro": "macOS",
+    "release": "11.5.2"
+  },
+  "vscodeInfo": {
+    "version": "1.62.1",
+    "extensions": [
+      "esbenp.prettier-vscode",
+      "ritwickdey.LiveServer",
+      "shd101wyy.markdown-preview-enhanced"
+    ],
+    "userSettings": {
+      "explorer.confirmDragAndDrop": false,
+      "explorer.confirmDelete": false,
+      "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "javascript.updateImportsOnFileMove.enabled": "never",
+      "editor.formatOnSave": true,
+      "editor.tabSize": 2,
+      "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      }
+    }
+  }
+}
