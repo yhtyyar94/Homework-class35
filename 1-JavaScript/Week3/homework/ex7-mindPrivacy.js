@@ -29,12 +29,22 @@ const employeeRecords = [
   },
 ];
 
-// ! Function under test
-function filterPrivateData(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+
+function filterPrivateData(data) {
+  const result = [...data]
+  const objectKeys = Object.keys(result[0])
+  for(let i = 0; i < result.length; i++) {
+    for(let j = 0; j < objectKeys.length; j++) {
+      if(objectKeys[j] !== 'name' && objectKeys[j] !== 'occupation' && objectKeys[j] !== 'email') {
+        delete result[i][objectKeys[j]]
+      }
+    }
+  }
+
+  return result
 }
 
-// ! Test functions (plain vanilla JavaScript)
+
 function test1() {
   console.log('Test 1: filterPrivateData should take one parameters');
   console.assert(filterPrivateData.length === 1);

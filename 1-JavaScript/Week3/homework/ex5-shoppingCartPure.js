@@ -15,12 +15,15 @@ it pure. Do the following:
    spread syntax.
 5. Confirm that you function passes the provided unit tests.
 ------------------------------------------------------------------------------*/
-// ! Function under test
-function addToShoppingCart(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+
+function addToShoppingCart(initialCart, groceryItem) {
+  const result = [...initialCart]
+  result.push(groceryItem)
+  result.length > 3 && result.shift()
+
+  return result
 }
 
-// ! Test functions (plain vanilla JavaScript)
 function test1() {
   console.log('Test 1: addToShoppingCart should take two parameters');
   console.assert(addToShoppingCart.length === 2);

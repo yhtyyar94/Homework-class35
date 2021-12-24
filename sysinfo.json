@@ -1,39 +1,104 @@
 {
-  "node": "v14.15.1",
+  "node": "v17.1.0",
   "system": {
-    "manufacturer": "Apple Inc.",
-    "model": "MacBookPro11,3"
+    "manufacturer": "LENOVO",
+    "model": "20CLS0G900"
   },
   "cpu": {
     "manufacturer": "Intel®",
-    "brand": "Core™ i7-4960HQ",
-    "speed": 2.6
+    "brand": "Core™ i5-5300U",
+    "speed": 2.3
   },
-  "memory": "16 GB",
+  "memory": "8 GB",
   "osInfo": {
-    "platform": "darwin",
-    "distro": "macOS",
-    "release": "11.5.2"
+    "platform": "Windows",
+    "distro": "Microsoft Windows 10 Pro",
+    "release": "10.0.19042"
   },
   "vscodeInfo": {
-    "version": "1.62.1",
+    "version": "1.63.2",
     "extensions": [
+      "aaron-bond.better-comments",
+      "adpyke.codesnap",
+      "ajinkya-hingne.salesforce-snippets",
+      "allanoricil.salesforce-soql-editor",
+      "amandeepmittal.pug",
+      "AyuSharma-dev.salesforce-md-info",
+      "AyuSharma-dev.salesforce-testsuite-manager",
+      "bhshawon.node-json-autocomplete",
+      "chris-noring.node-snippets",
+      "christian-kohler.npm-intellisense",
+      "christian-kohler.path-intellisense",
+      "chuckjonas.apex-debug",
+      "chuckjonas.apex-pmd",
+      "cmstead.js-codeformer",
+      "cmstead.jsrefactor",
+      "cweijan.vscode-office",
+      "dbaeumer.vscode-eslint",
+      "deerawan.vscode-faker",
+      "dkundel.vscode-npm-source",
+      "donjayamanne.javadebugger",
+      "dsznajder.es7-react-js-snippets",
+      "dzannotti.vscode-babel-coloring",
+      "eg2.vscode-npm-script",
+      "EQuimper.react-native-react-redux",
       "esbenp.prettier-vscode",
+      "FinancialForce.lana",
+      "formulahendry.auto-close-tag",
+      "formulahendry.auto-complete-tag",
+      "formulahendry.auto-rename-tag",
+      "GitHub.vscode-pull-request-github",
+      "glenn2223.live-sass",
+      "HookyQR.beautify",
+      "influrium.haxe-jsx",
+      "jasonnutter.search-node-modules",
+      "johnpapa.vscode-peacock",
+      "JosephAllen.apex-code-runner",
+      "jpoissonnier.vscode-styled-components",
+      "jundat95.react-native-snippet",
+      "leizongmin.node-module-intellisense",
+      "leodriesch.paste-html-as-jsx",
+      "mgmcdermott.vscode-language-babel",
+      "mikestead.dotenv",
+      "miramac.vscode-exec-node",
+      "mrmlnc.vscode-pugbeautify",
+      "ms-vscode-remote.remote-wsl",
+      "ms-vscode.powershell",
+      "ms-vscode.vscode-typescript-next",
+      "ms-vsliveshare.vsliveshare",
+      "msjsdiag.debugger-for-chrome",
+      "msjsdiag.vscode-react-native",
+      "NuclleaR.vscode-extension-auto-import",
+      "PKief.material-icon-theme",
+      "pranaygp.vscode-css-peek",
+      "rangav.vscode-thunder-client",
+      "redhat.vscode-commons",
+      "redhat.vscode-xml",
+      "riazxrazor.html-to-jsx",
       "ritwickdey.LiveServer",
-      "shd101wyy.markdown-preview-enhanced"
+      "salesforce.salesforce-vscode-slds",
+      "salesforce.salesforcedx-vscode",
+      "salesforce.salesforcedx-vscode-apex",
+      "salesforce.salesforcedx-vscode-apex-debugger",
+      "salesforce.salesforcedx-vscode-apex-replay-debugger",
+      "salesforce.salesforcedx-vscode-core",
+      "salesforce.salesforcedx-vscode-expanded",
+      "salesforce.salesforcedx-vscode-lightning",
+      "salesforce.salesforcedx-vscode-lwc",
+      "salesforce.salesforcedx-vscode-soql",
+      "salesforce.salesforcedx-vscode-visualforce",
+      "skyran.js-jsx-snippets",
+      "steoates.autoimport",
+      "streetsidesoftware.code-spell-checker",
+      "vscode-icons-team.vscode-icons",
+      "vscodeshift.material-ui-snippets",
+      "waderyan.nodejs-extension-pack",
+      "walkme.NodeJS-extension-pack",
+      "wix.vscode-import-cost",
+      "xabikos.JavaScriptSnippets",
+      "yuichinukiyama.vscode-preview-server",
+      "zhuangtongfa.material-theme"
     ],
-    "userSettings": {
-      "explorer.confirmDragAndDrop": false,
-      "explorer.confirmDelete": false,
-      "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
-      "javascript.updateImportsOnFileMove.enabled": "never",
-      "editor.formatOnSave": true,
-      "editor.tabSize": 2,
-      "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-      }
-    }
+    "userSettings": {}
   }
 }
