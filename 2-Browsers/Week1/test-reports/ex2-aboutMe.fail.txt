@@ -1,0 +1,6 @@
+
+*** Spell Checker Report ***
+
+ex2-aboutMe/index.js:15:52 - Unknown word (Yhtyyar)
+ex2-aboutMe/index.js:16:52 - Unknown word (Kebap)
+ex2-aboutMe/index.js:17:52 - Unknown word (Dronten)

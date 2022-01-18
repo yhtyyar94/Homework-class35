@@ -1,4 +1,7 @@
 'use strict';
+
+// const { groupPatternsByBaseDirectory } = require("fast-glob/out/managers/tasks");
+
 /*------------------------------------------------------------------------------
 Full description at: https://github.com/HackYourFuture/Homework/tree/main/2-Browsers/Week1#exercise-4-whats-the-time
 
@@ -8,7 +11,19 @@ Full description at: https://github.com/HackYourFuture/Homework/tree/main/2-Brow
 2. Have the function execute when it's loading in the browser.
 ------------------------------------------------------------------------------*/
 function addCurrentTime() {
-  // TODO complete this function
+  
+  const body = document.getElementsByTagName('body')[0]
+  const h1 = document.createElement('h1')
+  setInterval(() => {
+    const today = new Date();
+    const time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds()
+    h1.textContent = time
+  }, 100)
+  body.appendChild(h1)
 }
 
-// TODO execute `addCurrentTime` when the browser has completed loading the page
+
+window.onload = () => {
+  addCurrentTime()
+}
+
